@@ -1,0 +1,19 @@
+research_link:
+  description: >
+    Conduct a thorough research about Cohere's endpoint {link}
+    Make sure to cover all the important endpoints and it's use cases
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about Cohere's endpoint {link}
+
+write_blog:
+  description: >
+    Writes a blog that described how an API endpoint works based on the summary of that endpoint
+  expected_output: >
+    Returns an article that is formatted with an introduction, content, and conclusion
+
+upload_medium:
+  description: >
+    Uploads the blog received from write_blog to medium.com
+  expected_output: >
+    Returns the URL of the uploaded blog on medium.com
+
